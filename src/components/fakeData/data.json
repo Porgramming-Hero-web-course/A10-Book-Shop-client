@@ -1,0 +1,56 @@
+[
+    {   
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581416669l/48816580.jpg",
+        "name": "JavaScript Everywhere",
+        "author": "Adam D. Scott",
+        "price": 234
+    },
+    {
+        "img": "https://eloquentjavascript.net/img/cover.jpg",
+        "name": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "price": 134
+    },
+    {
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "name": "Learning React",
+        "author": "Alex Banks and Eve Porcello",
+        "price": 434
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/411PLvo+cxL.jpg",
+        "name": "The Road to Learn React",
+        "author": "Robin Wieruch",
+        "price": 334
+    },
+    {
+        "img": "https://m.media-amazon.com/images/P/0131103628.01._SCLZZZZZZZ_SX500_.jpg",
+        "name": "The C Programming Language",
+        "author": "Brian Kernighan and Dennis Ritchie",
+        "price": 342
+    },
+    {
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41jnU0V+cBL._SX379_BO1,204,203,200_.jpg",
+        "name": "Effective TypeScript",
+        "author": "Dan Vanderkam",
+        "price": 132
+    },
+    {
+        "img": "https://images-na.ssl-images-amazon.com/images/I/81vmJCNCm6L.jpg",
+        "name": "Python Crash Course",
+        "author": "Eric Matthes",
+        "price": 334
+    },
+    {
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41oiI3x67dL._SX379_BO1,204,203,200_.jpg",
+        "name": "Software Engineering at Google",
+        "author": "Titus Winters",
+        "price": 342
+    },
+    {
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605764354i/55940635._UY2560_SS2560_.jpg",
+        "name": "Learn JavaScript Quickly",
+        "author": "Code Quickly",
+        "price": 132
+    }
+]
