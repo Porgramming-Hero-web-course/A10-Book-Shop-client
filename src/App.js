@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
+import './App.css';
+import AddBook from './components/AddBook/AddBook';
+import AllOrders from './components/AllOrders/AllOrders';
+import BuyBook from './components/BuyBook/BuyBook';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import NotFound from './components/NotFound/NotFound';
-import Navbar from './components/Navbar/Navbar';
-import PrivateRoute from './components/PrivateRoute/PrivateRoute'
 import MyBooks from './components/MyBooks/MyBooks';
-import BuyBook from './components/BuyBook/BuyBook';
 import MySingleBook from './components/MySingleBook/MySingleBook';
-import Admin from './components/Admin/Admin';
-import AllOrders from './components/AllOrders/AllOrders';
-import AddBook from './components/AddBook/AddBook';
+import Navbar from './components/Navbar/Navbar';
+import NotFound from './components/NotFound/NotFound';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -35,9 +30,9 @@ function App() {
           <Route path="/login">
             <Login/>
           </Route>
-          <Route path="/buybook/:id">
+          <PrivateRoute path="/buybook/:id">
             <BuyBook></BuyBook>
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path="/mybooks">
             <MyBooks/>
           </PrivateRoute>

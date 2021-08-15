@@ -32,8 +32,8 @@ const AllBook = () => {
                     bookData.map(book => <Book book={book}></Book>)
                 ) : (
                 <div style={{ textAlign: "center" }}>
-                <img className="spinner ms-5"
-                    src="https://i.pinimg.com/originals/f9/41/ae/f941ae9d16fd7d2957eea6e5b1100d1e.gif" alt=""/>
+                <img className="spinner ms-5 mt-5"
+                    src="https://c.tenor.com/tnVhpVPq9ZkAAAAi/emojis-emoji.gif" alt=""/>
                 </div>
                 )}
         </div>

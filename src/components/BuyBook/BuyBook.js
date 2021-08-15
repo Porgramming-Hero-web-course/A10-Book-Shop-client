@@ -59,7 +59,7 @@ const BuyBook = () => {
                     <h5>Book Name: {book.name}</h5>
                     <br></br>
                     <p>Price: ${book.price}</p>
-                    <input type="number" name="quantity" onChange={handleQuantityChange}></input>
+                    <input type="number" name="quantity" placeholder="Quantity" onChange={handleQuantityChange}></input>
                     <br></br>
                     <button className="btn btn-primary mt-2">Order Now</button>
                 </form>
