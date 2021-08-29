@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/icons/Logo.png'
 
-const Navbar = () => {
+const Navbar = ({data}) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
@@ -25,7 +25,7 @@ const Navbar = () => {
                             <Link className="nav-link active" to="/">Deals</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <Link className="nav-link active" to="login"><button className="btn btn-success">Login</button></Link>
+                            <Link className="nav-link active" to="login"><button className="btn btn-success">{data ? data.name : <span>Login</span>}</button></Link>
                         </li>
                     </ul>
                 </div>

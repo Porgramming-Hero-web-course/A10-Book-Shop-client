@@ -23,11 +23,11 @@ const AllBook = () => {
     // }
 
     // <button onClick = { addAllBook } > Add all book</button>
-
-
+    
+// bg-light card w-75 h-100 p-2
     return (
-        <div className='row'>
-            {
+        <div className='row justify-content-center m-5'>
+                {
                 bookData.length !== 0 ? (
                     bookData.map(book => <Book book={book}></Book>)
                 ) : (
@@ -35,7 +35,7 @@ const AllBook = () => {
                 <img className="spinner ms-5 mt-5"
                     src="https://c.tenor.com/tnVhpVPq9ZkAAAAi/emojis-emoji.gif" alt=""/>
                 </div>
-                )}
+              )}
         </div>
     );
 };

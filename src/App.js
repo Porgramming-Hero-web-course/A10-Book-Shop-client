@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect, useState} from "react";
 import {
   BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
@@ -16,10 +16,12 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 function App() {
+  const localData = localStorage.getItem('user')
+  const data = JSON.parse(localData);
   return (
     <div>
       <Router>
-        <Navbar/>
+        <Navbar data={data}/>
         <Switch>
           <Route exact path="/">
             <Home />
